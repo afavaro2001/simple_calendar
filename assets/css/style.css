@@ -1,0 +1,88 @@
+@import "https://fonts.googleapis.com/css?family=Lekton";
+
+body {
+    background-color: #efefef;
+    padding: 0;
+    margin: 0;
+    font-family: Arial,  Helvetica,  sans-serif;
+    background-color: #cdccc7;
+    background-repeat: repeat;
+    padding: 0;
+    margin: 10px;
+    font-family: Arial,  Helvetica,  sans-serif;
+    font-size: 14pt;
+}
+hr {
+    border: 0px;
+    border-top: 1px solid #ccc;
+    height: 0px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #FFF;
+}
+.dashboard-banner {
+    background-image: linear-gradient(to top, #464646 0%, #1692F4 100%);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    min-height: 4em;
+}
+.dashboard-banner .headline{
+    color: #fff;
+    padding: 1em;
+}
+.dashboard-banner .banner-nav {
+    text-align: right;
+    align-self: center;
+    color: #fff;
+}
+.dashboard-banner .banner-nav a{
+    color: inherit;    
+}
+.dashboard-banner img{
+    max-height: 75px;;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix:before, .clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.admin-sub-menu{
+    margin:auto; max-width: 500px;text-align: center
+}
+.color_tile{
+    min-height: 30px;
+    max-width: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;;
+}
+
+@media (max-width: 500px) {
+    .dashboard-banner .banner-nav {
+        float: unset;
+        padding-top: 0;
+    }
+}

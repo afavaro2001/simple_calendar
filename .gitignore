@@ -1,0 +1,5 @@
+*.log
+test-*
+local-config.php
+*.txt
+!readme.txt
